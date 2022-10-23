@@ -1,0 +1,31 @@
+body {
+    font-family: 'Major Mono Display', monospace;
+}
+
+nav {
+    font-size: 1.5em;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+}
+
+nav:hover{
+    transform: scale(0.9);
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+img{
+    width: 30%;
+    margin: calc(10%/6);
+    /* not using flexbox this time to figure out different ways to create a same idea */
+}
+
+img:hover {
+    box-shadow: 10px 5px 5px teal;
+    cursor: pointer;
+    transform: translate(-1.1rem, -1ex);
+    transition: 0.7s;
+    transition-delay: 0.2s;
+}
